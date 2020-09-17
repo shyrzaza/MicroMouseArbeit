@@ -2892,9 +2892,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="57" y1="44.082675" x2="57" y2="49" width="0.508" layer="16"/>
 <contactref element="M0_CONNECT1" pad="3"/>
 <contactref element="M0_CONNECT2" pad="3"/>
-<wire x1="73.744" y1="51.426" x2="72.61" y2="50.292" width="0.5" layer="1"/>
-<wire x1="72.61" y1="50.292" x2="63.5" y2="50.292" width="0.5" layer="1"/>
 <contactref element="C9" pad="-"/>
+<wire x1="73.744" y1="51.426" x2="73.626" y2="51.308" width="0.5" layer="1"/>
+<via x="72.39" y="49.276" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+3V3">
 <contactref element="DSPIC33" pad="17"/>
@@ -3252,9 +3252,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="46.149" y1="47.967" x2="37.033" y2="47.967" width="0.508" layer="1"/>
 <wire x1="37.033" y1="47.967" x2="37" y2="48" width="0.508" layer="1"/>
 <via x="37" y="48" extent="1-16" drill="0.35"/>
-<wire x1="37" y1="48" x2="35.076" y2="49.924" width="0.508" layer="16"/>
-<wire x1="37.791" y1="55.571" x2="38.147" y2="55.571" width="0.508" layer="1"/>
-<wire x1="37.791" y1="55.571" x2="35.56" y2="53.34" width="0.508" layer="1"/>
+<wire x1="35.076" y1="49.924" x2="37" y2="48" width="0.508" layer="16"/>
 <wire x1="34.042" y1="59.14" x2="34.042" y2="57.5110375" width="0.508" layer="1"/>
 <wire x1="34.042" y1="57.5110375" x2="34.01548125" y2="57.48451875" width="0.508" layer="1"/>
 <via x="34.01548125" y="57.48451875" extent="1-16" drill="0.35"/>
@@ -3262,13 +3260,14 @@ Covered vias can be set in Masks (Limit).
 <contactref element="M0_CONNECT2" pad="2"/>
 <wire x1="33.269" y1="56.7380375" x2="32.27" y2="55.7390375" width="0.5" layer="16"/>
 <wire x1="32.27" y1="55.7390375" x2="32.27" y2="55.54" width="0.5" layer="16"/>
-<wire x1="35.076" y1="49.924" x2="35.076" y2="52.856" width="0.5" layer="16"/>
-<wire x1="35.076" y1="52.856" x2="35.56" y2="53.34" width="0.5" layer="16"/>
-<via x="35.56" y="53.34" extent="1-16" drill="0.35"/>
-<via x="35.56" y="53.34" extent="1-16" drill="0.35"/>
-<via x="35.56" y="53.34" extent="1-16" drill="0.35"/>
-<wire x1="35.56" y1="53.34" x2="34.47" y2="53.34" width="0.5" layer="1"/>
-<wire x1="34.47" y1="53.34" x2="32.27" y2="55.54" width="0.5" layer="1"/>
+<via x="35.052" y="51.562" extent="1-16" drill="0.35"/>
+<wire x1="35.052" y1="51.562" x2="35.076" y2="51.538" width="0.5" layer="16"/>
+<wire x1="35.076" y1="51.538" x2="35.076" y2="49.924" width="0.5" layer="16"/>
+<wire x1="38.147" y1="55.571" x2="36.521" y2="55.571" width="0.5" layer="1"/>
+<wire x1="36.521" y1="55.571" x2="35.052" y2="54.102" width="0.5" layer="1"/>
+<wire x1="35.052" y1="54.102" x2="35.052" y2="51.562" width="0.5" layer="1"/>
+<wire x1="32.27" y1="55.54" x2="33.708" y2="54.102" width="0.5" layer="1"/>
+<wire x1="33.708" y1="54.102" x2="35.052" y2="54.102" width="0.5" layer="1"/>
 </signal>
 <signal name="M1-">
 <contactref element="H-BRIDGE_L293B" pad="11"/>
@@ -3670,7 +3669,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="32.4346" y1="74.5004" x2="31.927" y2="75.008" width="0.508" layer="16"/>
 <contactref element="H-BRIDGE_L293B" pad="8"/>
 <wire x1="53.769" y1="60.667" x2="53.769" y2="84.669" width="2" layer="16"/>
-<wire x1="70.102" y1="62.47" x2="70.103" y2="62.469" width="0.508" layer="1"/>
 <wire x1="63.55" y1="94.45" x2="53.769" y2="84.669" width="2" layer="1"/>
 <via x="53.769" y="84.669" extent="1-16" drill="0.35"/>
 <contactref element="9V" pad="1"/>

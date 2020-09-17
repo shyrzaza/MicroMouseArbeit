@@ -6,7 +6,7 @@ x1 = transpose(x1);
 s = size(x1)
 x1t = (0:1:s(2)-1);
 
-plot(xt,x1)
+plot(x1t,x1)
 hold on;
 
 x2 = T(:,2)
